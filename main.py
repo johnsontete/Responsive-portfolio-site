@@ -11,8 +11,7 @@ def resume():
       return send_from_directory(directory='resume', path='Myresume.pdf')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False,host='0.0.0.0')
 
-# with open('file.txt','w') as file:
-#     data = file.write('I have witten something')
+
 
